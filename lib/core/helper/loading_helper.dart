@@ -1,5 +1,6 @@
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:injectable/injectable.dart';
+import 'package:vnpt_task4/constants/app_constants.dart';
 import 'package:vnpt_task4/core/clean_arch_setup/extension/unit.dart';
 
 @lazySingleton
@@ -10,7 +11,7 @@ class LoadingHelper {
     if (EasyLoading.isShow) {
       _counter++;
     } else {
-      await EasyLoading.show(status: 'Loading...');
+      await EasyLoading.show(status: AppConstants.loading);
     }
     return unit;
   }
