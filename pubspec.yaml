@@ -1,0 +1,83 @@
+name: vnpt_task5
+description: "vnpt_task5"
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #ui
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  file_picker: ^10.3.2
+  image_picker: ^1.2.0
+
+
+  #singleton
+  get: ^4.7.2
+  get_it: ^8.2.0
+  injectable: ^2.5.1
+
+
+  #networking & model
+  synchronized: ^3.4.0
+  easy_localization: ^3.0.8
+  flutter_easyloading: ^3.0.5
+  overlay_support: ^2.1.0
+  fluttertoast: ^8.2.12
+
+
+
+  
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+  flutter_gen: ^5.11.0
+  flutter_gen_runner: ^5.11.0
+  build_runner: ^2.7.0
+  injectable_generator: ^2.8.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - resources/icon/
+    - resources/images/
+    - resources/languages/
+
+
+flutter_gen:
+  output: lib/generated/
+  line_length: 150
+
+
+targets:
+  $default:
+    builders:
+      easy_localization_generator:
+        enabled: true
+        options:
+          source_dir: resources/languages
+          output_dir: lib/generated
+          output_file: locale_keys.dart
+          format_keys: true

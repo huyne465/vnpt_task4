@@ -1,0 +1,53 @@
+{
+    "appbar" : {
+        "authorizeCitizenIDTitle" : "Xác Thực CCCD"
+    },
+
+    "upload": {
+        "attachment": "Chụp Ảnh",
+        "chooseFromDevice": "hoặc chọn tệp từ thiết bị"
+    },
+
+    "authorizeStep": {
+        "step1": "Mặt trước CCCD",
+        "step2": "Mặt sau CCCD",
+        "step3": "Chụp ảnh chân dung"
+    },
+
+    "title" : {
+        "authorizeFrontTitle": "Mặt trước CCCD",
+        "authorizeBackTitle": "Mặt sau CCCD",
+        "authorizeSubtitle": "Đảm bảo thông tin rõ ràng, không bị che khuất",
+        "portrait": "Ảnh chân dung",
+        "portraitSubtitle": "Nhìn thẳng vào camera, không đeo kính râm"
+    },
+
+    "warning": {
+        "title": "Lưu ý quan trọng: ",
+        "rule1": "Chụp trong môi trường đầy đủ ánh sáng",
+        "rule2": "Đặt CCCD trên nền phẳng, không bị nghiêng",
+        "rule3": "Không được che khuất thông tin"
+    },
+
+    "guide": {
+        "title": "Hướng dẫn chụp ảnh: ",
+        "step1": "Khuôn mặt rõ nét, không bị che khuất",
+        "step2": "không đeo kính râm, khẩu trang",
+        "step3": "Ánh sáng đều, không bị tối hoặc chói"
+    },
+    
+    "button": {
+        "continue": "Tiếp tục",
+        "comeback": "Quay lại", 
+        "authorize": "Xác thực",
+        "done": "Hoàn tất",
+        "next": "Tiếp theo",
+        "previous": "Quay lại",
+        "complete": "Hoàn thành"
+    },
+
+    "success": {
+        "title": "Xác thực thành công",
+        "subTitle": "Thông Tin CCCD đã được xác nhận"
+    }
+}
